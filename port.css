@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    color: #3cc36b;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #5bdad3;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color: #70fa79;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* About Me Section */
+  #about {
+    padding: 50px;
+    text-align: center;
+    background-color: #f43d77;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color: #92dbe6;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+    text-align: center;
+    background-color: #70fa79;
+  }
+  
+  .project {
+    margin-bottom: 22px;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #92dbe6;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contact-form button {
+    background-color: #5edcdc;
+    color: #e81e4d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #cb7f7f;
+    color: #6cdacf;
+    padding: 20px;
+    text-align: center;
+  }
